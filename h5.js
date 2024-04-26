@@ -4,9 +4,6 @@ function factorial(x) {
     else if (x<0) return 'no se puede calcular factorial de números negativos'
     return x * factorial(x-1)
 }
-// vista en consola
-console.log(factorial(4))
-
 // - 4! = 4 x 3 x 2 x 1
 // - if(x>-1 && x<2) return 1 // en este punto la iteración va a parar retornando 1 
 // - else if (x<0) return // en caso de que haya números negativos la función se rompe y devuelve un mensaje
@@ -21,6 +18,8 @@ console.log(factorial(4))
 // - 4 x factorial(3) --> 4 x 6 = 24
 // - factorial(4) --> 24
 
+// vista en consola
+console.log(factorial(4))
 // algoritmo de factorial
 
 var num = 4
